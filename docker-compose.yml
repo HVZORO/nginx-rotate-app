@@ -3,6 +3,6 @@ version: '3'
 services:
   nginx-app:
     build: .
-    container_name: nginx-rotate
+    container_name: Nginx-Rotate
     ports:
-      - "8080:80"
+      - "8000:80"
